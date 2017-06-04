@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyobiWorkGroup.Plugins", "RyobiWorkGroup.Plugins.csproj", "{45D5EA7F-9F23-E497-DBB7-B421F16AB6F6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyobiWorkGroup", "RyobiWorkGroup.csproj", "{EF8C27C7-69E1-1DAC-71CF-CAC2BBFFDA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyobiWorkGroup.Editor.Plugins", "RyobiWorkGroup.Editor.Plugins.csproj", "{A02AB987-D93B-4FC8-AD15-D499E14EC857}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D5EA7F-9F23-E497-DBB7-B421F16AB6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D5EA7F-9F23-E497-DBB7-B421F16AB6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D5EA7F-9F23-E497-DBB7-B421F16AB6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D5EA7F-9F23-E497-DBB7-B421F16AB6F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EF8C27C7-69E1-1DAC-71CF-CAC2BBFFDA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF8C27C7-69E1-1DAC-71CF-CAC2BBFFDA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8C27C7-69E1-1DAC-71CF-CAC2BBFFDA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8C27C7-69E1-1DAC-71CF-CAC2BBFFDA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02AB987-D93B-4FC8-AD15-D499E14EC857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02AB987-D93B-4FC8-AD15-D499E14EC857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02AB987-D93B-4FC8-AD15-D499E14EC857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02AB987-D93B-4FC8-AD15-D499E14EC857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
